@@ -1,0 +1,12 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Backend files
+server/.env
+server/node_modules/
